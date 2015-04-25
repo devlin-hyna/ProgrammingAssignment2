@@ -1,7 +1,7 @@
 ## cachematrix.R
 ##
 ## This file contains two functions
-##     makeCacheMatrix:   creates a matrix that can also stores its inverse.
+##     makeCacheMatrix:   creates a matrix that can also store its inverse.
 ##     cacheSolve:        returns the inverse of a cacheMatrix.
 
 ## makeCacheMatrix takes a matrix as its parameter and then creates
