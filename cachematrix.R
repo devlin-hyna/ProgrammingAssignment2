@@ -1,12 +1,12 @@
-## cacheMatrix.R
+## cachematrix.R
 ##
-## This file contains two functions:
-##     makeCacheMatrix:  creates a matrix that also stores its inverse
-##     cacheSolve:  returns the inverse of a cacheMatrix.
+## This file contains two functions
+##     makeCacheMatrix:   creates a matrix that can also stores its inverse.
+##     cacheSolve:        returns the inverse of a cacheMatrix.
 
 ## makeCacheMatrix takes a matrix as its parameter and then creates
-##     a version of the matrix that also stores the inverse of the 
-##     matrix.
+##     a version of the matrix that can also store the inverse of
+##     the matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
     m.inv <- NULL
